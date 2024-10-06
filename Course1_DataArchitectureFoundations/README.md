@@ -41,11 +41,12 @@ Developed business and technical proposals to outline the database requirements 
 **Design:**
 
 Created ERD diagrams (conceptual, logical and physical) using Lucidchart to design the database architecture.
-![ERDs](./ERDs.png)
+![ERDs](./IMG/ERDs.png)
 
 **Implementation:**
 
 Staged the data, built the database using SQL DDL commands, populated the provided HR dataset with with CRUD commands and finally queried data.
+
 <a href="SQL">SQL Files</a>
 
 **Enhancements:**

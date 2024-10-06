@@ -1,0 +1,10 @@
+show DATABASES;
+CREATE DATABASE UDACITYEXERCISE;
+show DATABASES;
+use DATABASE UDACITYEXERCISE;
+use schema PUBLIC;
+create or replace file format myjsonformat type='JSON' strip_outer_array=true;
+create or replace stage my_json_stage file_format = myjsonformat;
+create table userdetails(userjson variant);
+put file://C:\Users\alexa\Documents\01_git\PostGreSQL\DesigningDataSystems_DataWarehouse\userdetails.json @my_json_stage auto_compress=true;
+copy into userdetails from @my_json_stage/userdetails.json.gz file_format=myjsonformat on_error='skip_file';

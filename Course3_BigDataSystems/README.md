@@ -41,16 +41,18 @@ Business Requirements and technical requirements, as well as an overview of the 
 **Data Lake Solution Architecture Diagram**
 
 Designed an end-to-end data lake architecture covering ingestion, storage, processing, and serving layers. Created my architecture using open-source tools to avoid vendor lock-in.
-![PLAN](./DataLakeSolutionArchitectureDiagram.png)
+![PLAN](./IMG/DataLakeSolutionArchitectureDiagram.png)
 
 **Data Lake Architecture Design Document**
 
 A technical document detailing the architecture, decisions made, assumptions, risks, and scaling strategy. Targeted towards engineers and technical directors.
+
 <a href="DataLakeArchitectureDesign.docx">Design Document</a>
 
 **Executive Presentation**
 
 Created a PowerPoint presentation showcasing the business value of the data lake to non-technical executives. Focused on why the solution solves key business challenges.
+
 <a href="DataLakeExecutivePresentation.pptx">Presentation</a>
 
 **Video Presentation**

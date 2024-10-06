@@ -1,6 +1,6 @@
 # Designing Data Systems
 
-In this chapter, I covered key foundational concepts of data architecture and its business impact, followed by deep dives into data staging, operational data stores (ODS), and building a data warehouse (DWH). These lessons set the stage for the final project by ensuring a clear understanding of the data flow and system design. Through the course Snowflake - a cloud-based platform has been used.
+In this chapter, I covered key foundational concepts of data architecture and its business impact, followed by deep dives into data staging, operational data stores (ODS), and building a data warehouse (DWH). These lessons set the stage for the final project by ensuring a clear understanding of the data flow and system design. Through this course Snowflake - a cloud-based platform has been used.
 
 ## Key Concepts Learned
 
@@ -60,4 +60,5 @@ Transformed and pipelined the data through the Staging, ODS, and DWH layers for 
 **SQL Queries:**
 
 Performed analytical SQL queries.
+
 <a href="SQL">SQL Files</a>
